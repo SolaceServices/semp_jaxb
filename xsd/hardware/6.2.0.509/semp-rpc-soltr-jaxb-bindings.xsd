@@ -1,0 +1,10 @@
+<jaxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <jaxb:bindings schemaLocation="semp-rpc-soltr.xsd">
+        <jaxb:bindings node="/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='authentication']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='user-class']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='default']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level-exception']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType">
+            <jaxb:class name="AccessLevel2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='authentication']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='user-class']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='ldap']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='group']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level-exception']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType">
+            <jaxb:class name="AccessLevel2"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+</jaxb:bindings>

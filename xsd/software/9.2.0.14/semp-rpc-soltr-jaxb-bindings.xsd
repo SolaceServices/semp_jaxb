@@ -1,0 +1,328 @@
+<jaxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <jaxb:bindings schemaLocation="semp-rpc-soltr.xsd">
+        <jaxb:bindings node="(/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='authentication']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='default']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level-exception']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType)">
+            <jaxb:class name="AccessLevel2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='authentication']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='ldap']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='group']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level-exception']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='access-level']/xs:complexType)">
+            <jaxb:class name="AccessLevel2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='rest-delivery-point'])[1]">
+            <jaxb:property name="rest-delivery-point-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='rest-delivery-point'])[2]">
+            <jaxb:property name="rest-delivery-point-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[1]">
+            <jaxb:property name="stats-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[2]">
+            <jaxb:property name="stats-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[3]">
+            <jaxb:property name="stats-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[4]">
+            <jaxb:property name="stats-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='rdp-name'])[1]">
+            <jaxb:property name="rdp-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='clear']//xs:element[@name='message-vpn']//xs:element[@name='rdp-name'])[2]">
+            <jaxb:property name="rdp-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='dynamic-message-routing']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='dmr-bridge']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='remote']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='message-vpn']/xs:complexType)">
+            <jaxb:class name="MessageVpn2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(/xs:schema/xs:element[@name='rpc']/xs:complexType/xs:choice/xs:element[@name='message-vpn']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='dynamic-message-routing']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='dmr-bridge']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='remote']/xs:complexType/xs:sequence/xs:choice/xs:element[@name='no']/xs:complexType/xs:choice/xs:element[@name='message-vpn']/xs:complexType)">
+            <jaxb:class name="MessageVpn2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='authentication']//xs:element[@name='count'])[1]">
+            <jaxb:property name="count-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='authentication']//xs:element[@name='count'])[2]">
+            <jaxb:property name="count-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='authentication']//xs:element[@name='num-elements'])[1]">
+            <jaxb:property name="num-elements-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='authentication']//xs:element[@name='num-elements'])[2]">
+            <jaxb:property name="num-elements-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='bridge']//xs:element[@name='local'])[1]">
+            <jaxb:property name="local-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='bridge']//xs:element[@name='local'])[2]">
+            <jaxb:property name="local-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-cluster']//xs:element[@name='num-elements'])[1]">
+            <jaxb:property name="num-elements-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-cluster']//xs:element[@name='num-elements'])[2]">
+            <jaxb:property name="num-elements-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-cluster']//xs:element[@name='following-cache-cluster-name'])[1]">
+            <jaxb:property name="following-cache-cluster-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-cluster']//xs:element[@name='following-cache-cluster-name'])[2]">
+            <jaxb:property name="following-cache-cluster-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='num-elements'])[1]">
+            <jaxb:property name="num-elements-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='num-elements'])[2]">
+            <jaxb:property name="num-elements-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='following-cache-instance-name'])[1]">
+            <jaxb:property name="following-cache-instance-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='following-cache-instance-name'])[2]">
+            <jaxb:property name="following-cache-instance-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='detail'])[1]">
+            <jaxb:property name="detail-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='detail'])[2]">
+            <jaxb:property name="detail-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='following-cache-cluster-name'])[1]">
+            <jaxb:property name="following-cache-cluster-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='following-cache-cluster-name'])[2]">
+            <jaxb:property name="following-cache-cluster-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='certificate-authority']//xs:element[@name='stats'])[1]">
+            <jaxb:property name="stats-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='certificate-authority']//xs:element[@name='stats'])[2]">
+            <jaxb:property name="stats-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-client-name'])[1]">
+            <jaxb:property name="fc-client-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-client-name'])[2]">
+            <jaxb:property name="fc-client-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-client-name'])[3]">
+            <jaxb:property name="fc-client-name-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vpn-id'])[1]">
+            <jaxb:property name="fc-vpn-id-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vpn-id'])[2]">
+            <jaxb:property name="fc-vpn-id-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vpn-id'])[3]">
+            <jaxb:property name="fc-vpn-id-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='following-client'])[1]">
+            <jaxb:property name="following-client-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='following-client'])[2]">
+            <jaxb:property name="following-client-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='following-client'])[3]">
+            <jaxb:property name="following-client-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vr-index'])[1]">
+            <jaxb:property name="fc-vr-index-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vr-index'])[2]">
+            <jaxb:property name="fc-vr-index-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='client']//xs:element[@name='fc-vr-index'])[3]">
+            <jaxb:property name="fc-vr-index-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cluster']//xs:element[@name='detail'])[1]">
+            <jaxb:property name="detail-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cluster']//xs:element[@name='detail'])[2]">
+            <jaxb:property name="detail-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cluster']//xs:element[@name='detail'])[3]">
+            <jaxb:property name="detail-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cspf']//xs:element[@name='neighbor']//xs:element[@name='detail'])[1]">
+            <jaxb:property name="detail-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cspf']//xs:element[@name='neighbor']//xs:element[@name='detail'])[2]">
+            <jaxb:property name="detail-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='rdp-name'])[1]">
+            <jaxb:property name="rdp-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='rdp-name'])[2]">
+            <jaxb:property name="rdp-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='client-certificate'])[1]">
+            <jaxb:property name="client-certificate-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='client-certificate'])[2]">
+            <jaxb:property name="client-certificate-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[1]">
+            <jaxb:property name="count-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[2]">
+            <jaxb:property name="count-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[3]">
+            <jaxb:property name="count-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[4]">
+            <jaxb:property name="count-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[5]">
+            <jaxb:property name="count-5"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='count'])[6]">
+            <jaxb:property name="count-6"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='rest-delivery-point'])[1]">
+            <jaxb:property name="rest-delivery-point-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='rest-delivery-point'])[2]">
+            <jaxb:property name="rest-delivery-point-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='backup'])[1]">
+            <jaxb:property name="backup-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='backup'])[2]">
+            <jaxb:property name="backup-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[1]">
+            <jaxb:property name="stats-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[2]">
+            <jaxb:property name="stats-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[3]">
+            <jaxb:property name="stats-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[4]">
+            <jaxb:property name="stats-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[5]">
+            <jaxb:property name="stats-5"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[6]">
+            <jaxb:property name="stats-6"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='stats'])[7]">
+            <jaxb:property name="stats-7"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[1]">
+            <jaxb:property name="detail-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[2]">
+            <jaxb:property name="detail-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[3]">
+            <jaxb:property name="detail-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[4]">
+            <jaxb:property name="detail-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[5]">
+            <jaxb:property name="detail-5"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[6]">
+            <jaxb:property name="detail-6"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[7]">
+            <jaxb:property name="detail-7"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[8]">
+            <jaxb:property name="detail-8"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='detail'])[9]">
+            <jaxb:property name="detail-9"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='subscriptions'])[1]">
+            <jaxb:property name="subscriptions-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='subscriptions'])[2]">
+            <jaxb:property name="subscriptions-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[1]">
+            <jaxb:property name="following-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[2]">
+            <jaxb:property name="following-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[3]">
+            <jaxb:property name="following-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[4]">
+            <jaxb:property name="following-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[5]">
+            <jaxb:property name="following-5"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following'])[6]">
+            <jaxb:property name="following-6"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following-vpn-name'])[1]">
+            <jaxb:property name="following-vpn-name-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following-vpn-name'])[2]">
+            <jaxb:property name="following-vpn-name-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='following-vpn-name'])[3]">
+            <jaxb:property name="following-vpn-name-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='primary'])[1]">
+            <jaxb:property name="primary-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='primary'])[2]">
+            <jaxb:property name="primary-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[1]">
+            <jaxb:property name="num-elements-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[2]">
+            <jaxb:property name="num-elements-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[3]">
+            <jaxb:property name="num-elements-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[4]">
+            <jaxb:property name="num-elements-4"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[5]">
+            <jaxb:property name="num-elements-5"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[6]">
+            <jaxb:property name="num-elements-6"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='num-elements'])[7]">
+            <jaxb:property name="num-elements-7"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='no-wildcard'])[1]">
+            <jaxb:property name="no-wildcard-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='no-wildcard'])[2]">
+            <jaxb:property name="no-wildcard-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='no-wildcard'])[3]">
+            <jaxb:property name="no-wildcard-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='redundancy']//xs:element[@name='detail'])[1]">
+            <jaxb:property name="detail-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='redundancy']//xs:element[@name='detail'])[2]">
+            <jaxb:property name="detail-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='ssl']//xs:element[@name='cipher-suite-list']//xs:element[@name='default'])[1]">
+            <jaxb:property name="default-1"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='ssl']//xs:element[@name='cipher-suite-list']//xs:element[@name='default'])[2]">
+            <jaxb:property name="default-2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='ssl']//xs:element[@name='cipher-suite-list']//xs:element[@name='default'])[3]">
+            <jaxb:property name="default-3"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='ssl']//xs:element[@name='cipher-suite-list']//xs:element[@name='default'])[4]">
+            <jaxb:property name="default-4"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+</jaxb:bindings>

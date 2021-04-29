@@ -1,0 +1,91 @@
+<jaxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <jaxb:bindings schemaLocation="semp-rpc-reply-soltr.xsd">
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='acl-profile']//xs:element[@name='acl-profiles']//xs:element[@name='acl-profile']/xs:complexType)">
+            <jaxb:class name="AclProfile2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='alarm']//xs:element[@name='alarms']//xs:element[@name='alarm']/xs:complexType)">
+            <jaxb:class name="Alarm2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='authentication']//xs:element[@name='authentications']//xs:element[@name='authentication']/xs:complexType)">
+            <jaxb:class name="Authentication2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='bridge']//xs:element[@name='bridges']//xs:element[@name='bridge']/xs:complexType)">
+            <jaxb:class name="Bridge2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-cluster']//xs:element[@name='cache-clusters']//xs:element[@name='cache-cluster']/xs:complexType)">
+            <jaxb:class name="CacheCluster2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cache-instance']//xs:element[@name='cache-instances']//xs:element[@name='cache-instance']/xs:complexType)">
+            <jaxb:class name="CacheInstance2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='certificate-authority']//xs:element[@name='certificate-authority']/xs:complexType)">
+            <jaxb:class name="CertificateAuthority2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cluster']//xs:element[@name='clusters']//xs:element[@name='cluster']/xs:complexType)">
+            <jaxb:class name="Cluster2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cspf']//xs:element[@name='neighbor']//xs:element[@name='neighbors']//xs:element[@name='neighbor']/xs:complexType)">
+            <jaxb:class name="Neighbor2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='cspf']//xs:element[@name='route']//xs:element[@name='routes']//xs:element[@name='route']/xs:complexType)">
+            <jaxb:class name="Route2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='distributed-cache']//xs:element[@name='distributed-caches']//xs:element[@name='distributed-cache']/xs:complexType)">
+            <jaxb:class name="DistributedCache2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='interface']//xs:element[@name='interfaces']//xs:element[@name='interface']/xs:complexType)">
+            <jaxb:class name="Interface2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='jndi']//xs:element[@name='summary']//xs:element[@name='summaries']//xs:element[@name='summary']/xs:complexType)">
+            <jaxb:class name="Summary2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='replication']//xs:element[@name='message-vpns']//xs:element[@name='message-vpn']/xs:complexType)">
+            <jaxb:class name="MessageVpn2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='message-vpn']//xs:element[@name='dynamic-message-routing']//xs:element[@name='message-vpns']//xs:element[@name='message-vpn']/xs:complexType)">
+            <jaxb:class name="MessageVpn2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='product-key']//xs:element[@name='product-keys']//xs:element[@name='product-key']/xs:complexType)">
+            <jaxb:class name="ProductKey2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='radius-server']//xs:element[@name='radius-servers']//xs:element[@name='radius-server']/xs:complexType)">
+            <jaxb:class name="RadiusServer2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='replicated-topic']//xs:element[@name='message-vpns']//xs:element[@name='message-vpn']//xs:element[@name='replicated-topics']//xs:element[@name='replicated-topic']/xs:complexType)">
+            <jaxb:class name="ReplicatedTopic2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='ntp-server']//xs:element[@name='ntp-server']/xs:complexType)">
+            <jaxb:class name="NtpServer2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='process']//xs:element[@name='processes']//xs:element[@name='process']/xs:complexType)">
+            <jaxb:class name="Process2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='sequenced-topic']//xs:element[@name='sequenced-topics']//xs:element[@name='sequenced-topic']/xs:complexType)">
+            <jaxb:class name="SequencedTopic2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='service']//xs:element[@name='services']//xs:element[@name='service']/xs:complexType)">
+            <jaxb:class name="Service2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='session']//xs:element[@name='sessions']//xs:element[@name='session']/xs:complexType)">
+            <jaxb:class name="Session2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='smrp']//xs:element[@name='stats']//xs:element[@name='stats']/xs:complexType)">
+            <jaxb:class name="Stats2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='smrp']//xs:element[@name='route']//xs:element[@name='routes']//xs:element[@name='route']/xs:complexType)">
+            <jaxb:class name="Route2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='smrp']//xs:element[@name='subscription-block']//xs:element[@name='subscription-block']/xs:complexType)">
+            <jaxb:class name="SubscriptionBlock2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='topic-endpoint']//xs:element[@name='topic-endpoints']//xs:element[@name='topic-endpoint']/xs:complexType)">
+            <jaxb:class name="TopicEndpoint2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='xa-transaction']//xs:element[@name='xa-transactions']//xs:element[@name='xa-transaction']/xs:complexType)">
+            <jaxb:class name="XaTransaction2"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="(//xs:element[@name='rpc-reply']//xs:element[@name='rpc']//xs:element[@name='show']//xs:element[@name='transaction']//xs:element[@name='transactions']//xs:element[@name='transaction']/xs:complexType)">
+            <jaxb:class name="Transaction2"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+</jaxb:bindings>
